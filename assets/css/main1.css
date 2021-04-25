@@ -4019,3 +4019,8 @@ ul#lt11 li{
 .name{
 	font-size: 24px;
 }
+.bttn{
+	padding : 0px;
+	padding-left:20px;
+	padding-right:20px
+}
