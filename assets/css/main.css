@@ -4072,3 +4072,28 @@ ul#lt11 li{
 .h{
 	border: 1px solid green;
 }
+@media (max-width:768px){
+	.tab12{
+		display: none;
+	}
+	.row{
+			border-bottom: solid 1px transparent;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+	.row > * {
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+	.sz{
+		font-size: 12px;
+	}
+}
+@media (min-width:768px){
+	.wrp{
+		display: none;
+	}
+}
