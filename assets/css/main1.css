@@ -4024,9 +4024,12 @@ ul#lt11 li{
 	padding-left:20px;
 	padding-right:20px
 }
+.flt:hover{
+	background: #13013f;
+	color: #fff !important;
+}
 @media (max-width: 768px){
-	.car img{
- 		padding: 3%;
-                box-sizing: border-box;
+	.tab12{
+		color: #aa14cc;
 	}
 }
