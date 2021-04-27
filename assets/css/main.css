@@ -3872,11 +3872,10 @@ td {
     background-position-y: center;
 }
 .select{
-	width:150px;
+	width:130px;
   }
   select{
-	
-	  width: 90%;
+	  width: 100%;
 	  height: 40px;
 	  display: block;
 	  appearance: none;
@@ -3885,6 +3884,8 @@ td {
 	  line-height: 30px;
   }
   .select:before {
+	  margin-top: 120px;
+	  margin-right: 15px;
 	  content: "\f078";
 	  font-family: FontAwesome;
 	  position: absolute;
@@ -3895,7 +3896,6 @@ td {
   .cn{
 	  box-align: center;
   }
-S
 
 /* Carousel Css */
 
@@ -4090,6 +4090,15 @@ ul#lt11 li{
 		}
 	.sz{
 		font-size: 12px;
+	}
+	.ss2{
+		float: right;
+	}
+	.select:before{
+		margin-top: 137px;
+	}
+	.sx{
+		font-size: 14px;
 	}
 }
 @media (min-width:768px){
