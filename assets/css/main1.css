@@ -4036,14 +4036,26 @@ ul#lt11 li{
 	  right: 700px;
 	  top: 6px;
   }
+  @media (max-width:468px){
+	.slct:before {
+		margin-top: 50px;
+		margin-right: 55px;
+		content: "\f078";
+		font-family: FontAwesome;
+		position: absolute;
+		z-index: 1;
+		right: 5px;
+		top: 45px;
+	}
+}
   @media (max-width:768px){
 	.slct:before {
 		content: "\f078";
 		font-family: FontAwesome;
 		position: absolute;
 		z-index: 1;
-		right: 150px;
-		top: 50px;
+		right: 80px;
+		top: 2px;
 	}
 }
 @media (max-width: 768px){
