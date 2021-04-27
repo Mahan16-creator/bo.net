@@ -4072,8 +4072,56 @@ ul#lt11 li{
 .h{
 	border: 1px solid green;
 }
+.slt{
+	width: 130px;
+}
+.slt:before {
+	margin-top: 120px;
+	margin-right: 15px;
+	content: "\f078";
+	font-family: FontAwesome;
+	position: absolute;
+	z-index: 1;
+	right: 5px;
+	top: 72px;
+}
+.slt1{
+	width: 130px;
+}
+.slt1:before {
+	margin-top: 220px;
+	margin-right: 15px;
+	content: "\f078";
+	font-family: FontAwesome;
+	position: absolute;
+	z-index: 1;
+	right: 5px;
+	top: 72px;
+}
 @media (max-width:468px){
 	.select:before {
+		margin-top: 120px;
+		margin-right: 15px;
+		content: "\f078";
+		font-family: FontAwesome;
+		position: absolute;
+		z-index: 1;
+		right: 5px;
+		top: 45px;
+	}
+	.slt:before {
+		float: right;
+		margin-top: 120px;
+		margin-right: 15px;
+		content: "\f078";
+		font-family: FontAwesome;
+		position: absolute;
+		z-index: 1;
+		right: 5px;
+		top: 45px;
+	}
+	.slt1:before {
+		float: right;
 		margin-top: 120px;
 		margin-right: 15px;
 		content: "\f078";
@@ -4109,8 +4157,17 @@ ul#lt11 li{
 	.select:before{
 		margin-top: 60px;
 	}
+	.slt:before {
+		margin-top: 110px;
+	}
+	.slt1:before {
+		margin-top: 110px;
+	}
 	.sx{
 		font-size: 14px;
+	}
+	.gyb{
+		display: none;
 	}
 }
 @media (min-width:768px){
