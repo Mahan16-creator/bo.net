@@ -4072,6 +4072,18 @@ ul#lt11 li{
 .h{
 	border: 1px solid green;
 }
+@media (max-width:468px){
+	.select:before {
+		margin-top: 120px;
+		margin-right: 15px;
+		content: "\f078";
+		font-family: FontAwesome;
+		position: absolute;
+		z-index: 1;
+		right: 5px;
+		top: 45px;
+	}
+}
 @media (max-width:768px){
 	.tab12{
 		display: none;
@@ -4095,7 +4107,7 @@ ul#lt11 li{
 		float: right;
 	}
 	.select:before{
-		margin-top: 137px;
+		margin-top: 60px;
 	}
 	.sx{
 		font-size: 14px;
