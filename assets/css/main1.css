@@ -3837,9 +3837,7 @@
 .l1{
 	background-color: rgba(4, 25, 59, 0.589);;
 }
-.sr{
 
-}
 td {
     padding: 8px;
     vertical-align: middle;
@@ -3947,7 +3945,7 @@ td {
   
   .close:hover,
   .close:focus {
-	color: #000;
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
   }
@@ -3960,7 +3958,7 @@ td {
   
   .close1:hover,
   .close1:focus {
-	color: #000;
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
   }
@@ -3973,15 +3971,11 @@ td {
   
   .close2:hover,
   .close2:focus {
-	color: #000;
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
   }
 /*Modal End Here */
-.mc{
-	color: white;
-	font-size: 32px;
-}
 
 .mc1{
   color: white;
@@ -4063,3 +4057,4 @@ ul#lt11 li{
 		color: #aa14cc;
 	}
 }
+
