@@ -4028,10 +4028,26 @@ ul#lt11 li{
 	background: #13013f;
 	color: #fff !important;
 }
+.slct:before {
+	  content: "\f078";
+	  font-family: FontAwesome;
+	  position: absolute;
+	  z-index: 1;
+	  right: 700px;
+	  top: 6px;
+  }
+  @media (max-width:768px){
+	.slct:before {
+		content: "\f078";
+		font-family: FontAwesome;
+		position: absolute;
+		z-index: 1;
+		right: 150px;
+		top: 50px;
+	}
+}
 @media (max-width: 768px){
 	.tab12{
 		color: #aa14cc;
 	}
 }
-
-
