@@ -4032,8 +4032,8 @@ ul#lt11 li{
   }
   @media (max-width:468px){
 	.slct:before {
-		margin-top: 50px;
-		margin-right: 55px;
+		margin-top: 2px;
+		margin-right: 1px;
 		content: "\f078";
 		font-family: FontAwesome;
 		position: absolute;
@@ -4048,13 +4048,28 @@ ul#lt11 li{
 		font-family: FontAwesome;
 		position: absolute;
 		z-index: 1;
-		right: 80px;
-		top: 2px;
+		right: 180px;
+		top: 50px;
 	}
 }
 @media (max-width: 768px){
 	.tab12{
 		color: #aa14cc;
 	}
+	.car{
+		float: center;
+	}
+	.sd{
+		display: none;
+	}
 }
-
+@media (min-width:768px){
+	.gyb{
+		display: none;
+	}
+}
+@media (min-width:982px){
+	.car{
+		float: right;
+	}
+}
