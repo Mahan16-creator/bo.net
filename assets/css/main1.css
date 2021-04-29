@@ -3851,27 +3851,6 @@ td {
     background-position-x: right;
     background-position-y: center;
 }
-.select{
-	width:150px;
-  }
-  select{
-	
-	  width: 90%;
-	  height: 40px;
-	  display: block;
-	  appearance: none;
-	  -webkit-appearance: none;
-	  padding: 0 20px;
-	  line-height: 30px;
-  }
-  .select:before {
-	  content: "\f078";
-	  font-family: FontAwesome;
-	  position: absolute;
-	  z-index: 1;
-	  right: 5px;
-	  top: 6px;
-  }
 .vl{
 	border-left: 1px solid green;
   height: 345px;
@@ -4021,37 +4000,37 @@ ul#lt11 li{
 .flt:hover{
 	background: #13013f;
 	color: #fff !important;
+}  
+.choose{
+	padding: 8px 12px !important;
+	color: #333333 !important;
+	background-color : #eeeeee !important;
+	border: 1px solid #dddddd !important;
+	cursor: pointer !important;
+	border-radius: 5px !important;
+	appearance: none !important;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50"><polygon points="0,0 100,0 50,50" style="fill:%23666666;" /> </svg>') !important;
+	background-position: right 10px top 50% !important;
+	background-repeat: no-repeat !important;
+	background-size: 10px !important;
+	padding-right: 5px !important;
 }
-.slct:before {
-	  content: "\f078";
-	  font-family: FontAwesome;
-	  position: absolute;
-	  z-index: 1;
-	  right: 700px;
-	  top: 6px;
-  }
-  @media (max-width:468px){
-	.slct:before {
-		margin-top: 2px;
-		margin-right: 1px;
-		content: "\f078";
-		font-family: FontAwesome;
-		position: absolute;
-		z-index: 1;
-		right: 5px;
-		top: 45px;
-	}
+.choose:focus,
+.choose:hover{
+	outline: none !important;
+	border: 1px solid #bbbbbb !important;
 }
-  @media (max-width:768px){
-	.slct:before {
-		content: "\f078";
-		font-family: FontAwesome;
-		position: absolute;
-		z-index: 1;
-		right: 180px;
-		top: 50px;
-	}
+.choose option{
+	background :white !important; 
 }
+.src{
+	background-color: #eeeeee !important;
+	color: black !important;
+	width: 150px !important;
+}
+
 @media (max-width: 768px){
 	.tab12{
 		color: #aa14cc;
@@ -4060,6 +4039,9 @@ ul#lt11 li{
 		float: center;
 	}
 	.sd{
+		display: none;
+	}
+	.gyb1{
 		display: none;
 	}
 }
