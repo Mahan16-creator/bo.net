@@ -4005,7 +4005,6 @@ ul#lt11 li{
 	padding: 8px 12px !important;
 	color: white !important;
 	background-color : #3b444d !important;
-	border: 1px solid #dddddd !important;
 	cursor: pointer !important;
 	border-radius: 5px !important;
 	appearance: none !important;
@@ -4044,7 +4043,13 @@ ul#lt11 li{
 		display: none;
 	}
 	.src{
-		width: 100px !important;
+		width: 150px !important;
+		padding-top: 20px !important;
+		padding-bottom: 20px !important;
+	}
+	.bttn{
+		padding-top: 1px;
+		padding-bottom: 41px;
 	}
 }
 @media (min-width:768px){
