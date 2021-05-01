@@ -4028,7 +4028,9 @@ ul#lt11 li{
 .src{
 	width: 200px !important;;
 }
-
+.btttn{
+	padding: 0px;
+}
 @media (max-width: 768px){
 	.tab12{
 		color: #aa14cc;
