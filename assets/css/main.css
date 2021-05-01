@@ -4077,6 +4077,9 @@ ul#lt11 li{
 .choose option{
 	background :white !important; 
 }
+.btttn{
+	padding: 0px;
+}
 @media (max-width:768px){
 	.tab12{
 		display: none;
