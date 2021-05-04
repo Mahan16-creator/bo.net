@@ -3852,8 +3852,8 @@ td {
     background-position-y: center;
 }
 .vl{
-	border-left: 1px solid green;
-  height: 345px;
+	border-left: 1px solid  rgb(109, 109, 109);
+  height: 391px;
   margin-left: 20px;
 }
 .h{
@@ -3861,6 +3861,9 @@ td {
 }
 .s1{
 	font-size: 16px;
+}
+.s2{
+	font-size: 11.3px;
 }
 .w1{
 	margin-top: 20px;
@@ -3981,7 +3984,11 @@ ul#lt11 li{
 	margin-top: 0px ;
 }
 .w10{
-	margin-top: 31px;
+	margin-top: 13px;
+}
+.ww1{
+	margin-top: 20px;
+	font-size: 18px;
 }
 .sz{
 	font-size: 28px;
