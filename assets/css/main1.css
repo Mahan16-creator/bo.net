@@ -3853,7 +3853,7 @@ td {
 }
 .vl{
 	border-left: 1px solid  rgb(109, 109, 109);
-  height: 391px;
+  height: 360px;
   margin-left: 20px;
 }
 .h{
@@ -3863,19 +3863,32 @@ td {
 	font-size: 16px;
 }
 .s2{
-	font-size: 11.3px;
+	font-size: 12px;
 }
+.aq{
+	margin-top: 25px;
+}
+.ar{
+	margin-top: 19px;
+}
+.as{
+	margin-top: 17px;
+}
+.at{
+	margin-top: 10px;
+}
+
 .w1{
 	margin-top: 20px;
 }
 .vl1{
-	border-left: 1px solid green;
-  height: 745px;
+	border-left: 1px solid  rgb(109, 109, 109);
+  height: 675px;
   margin-left: 20px;
 }
 .vl2{
-	border-left: 1px solid green;
-  height: 625px;
+	border-left: 1px solid rgb(109, 109, 109);
+  height: 580px;
   margin-left: 20px;
 }
 .vl3{
@@ -3894,6 +3907,19 @@ td {
   margin-left: 15px;
 }
 .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: white; /* Fallback color */
+	background-color: #041625; /* Black w/ opacity */
+  }
+  .modal1 {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
@@ -3987,8 +4013,7 @@ ul#lt11 li{
 	margin-top: 13px;
 }
 .ww1{
-	margin-top: 20px;
-	font-size: 18px;
+	margin-top: 24px;
 }
 .sz{
 	font-size: 28px;
