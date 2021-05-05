@@ -4136,6 +4136,12 @@ ul#lt11 li{
 .btttn{
 	padding: 0px;
 }
+.s{
+	margin-top: 2px;
+}
+.sx{
+	margin-top: -5px;
+}
 @media (max-width: 768px){
 	.tab12{
 		color: #aa14cc;
@@ -4162,7 +4168,46 @@ ul#lt11 li{
 		text-align: center;
 	}
 	.sa{
-		margin-left: 60px;
+		margin-left: 75px;
+	}
+	.sw{
+		margin-top: -7px;
+	}
+	.sr{
+		margin-top: -8px;
+	}
+	.st{
+		margin-top: -28px;
+	}
+	.sy{
+		margin-top: -7px;
+	}
+	.su{
+		margin-top: -7px;
+	}
+	.si{
+		margin-top: -8px;
+	}
+	.dy{
+		margin-top: -8px;
+	}
+	.gu{
+		margin-top: -8px;
+	}
+	.gi{
+		margin-top: -9px;
+	}
+	.go{
+		margin-top: -8px;
+	}
+	.gp{
+		margin-top: -7px;
+	}
+	.ga{
+		margin-top: -8px;
+	}
+	.gs{
+		margin-top: -5px;
 	}
 }
 @media (min-width:768px){
