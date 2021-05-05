@@ -3886,7 +3886,7 @@ td {
 }
 .vl1{
 	border-left: 1px solid  rgb(109, 109, 109);
-  height: 700px;
+  height: 800px;
   margin-left: 20px;
 }
 .vl2{
@@ -4119,6 +4119,7 @@ ul#lt11 li{
 	background-repeat: no-repeat !important;
 	background-size: 10px !important;
 	padding-right: 5px !important;
+	margin-top: -4px;
 }
 .choose:focus,
 .choose:hover{
@@ -4156,6 +4157,12 @@ ul#lt11 li{
 	.bttn{
 		padding-top: 1px;
 		padding-bottom: 41px;
+	}
+	.sasa{
+		text-align: center;
+	}
+	.sa{
+		margin-left: 60px;
 	}
 }
 @media (min-width:768px){
