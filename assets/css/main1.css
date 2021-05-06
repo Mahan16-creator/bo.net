@@ -2711,11 +2711,7 @@
 		width: 100%;
 	}
 
-		table tbody tr {
-			border: solid 1px;
-			border-left: 0;
-			border-right: 0;
-		}
+		
 
 		table td {
 			padding: 0.75em 0.75em;
@@ -4142,6 +4138,11 @@ ul#lt11 li{
 	border-collapse: collapse !important;
 	border-color: #041625 !important;
 }
+ table tbody tr {
+	border: solid 1px;
+	border-left: 0;
+	border-right: 0;
+}
 @media (max-width: 768px){
 	.tab12{
 		color: #aa14cc;
@@ -4163,12 +4164,14 @@ ul#lt11 li{
 	.bttn{
 		padding-top: 1px;
 		padding-bottom: 41px;
+		margin-top: -9px;
 	}
 	.sasa{
 		text-align: center;
+		font-size: 32px;
 	}
 	.sa{
-		margin-left: 75px;
+		margin-left: 55px;
 	}
 	.sw{
 		margin-top: -7px;
@@ -4215,6 +4218,21 @@ ul#lt11 li{
 	.sws{
 		font-size: 15px;
 	}
+
+	table tbody tr {
+		border: none;
+		border-left: 0;
+		border-right: 0;
+	}
+	.table1 tbody tr {
+		border: solid 1px;
+		border-left: 0;
+		border-right: 0;
+	}
+	.choose{
+		margin-top: -8px;
+	}
+
 }
 @media (min-width:768px){
 	.gyb{
