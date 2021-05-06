@@ -7,692 +7,366 @@
 <html>
 
 <head>
-    <title>Film - Stats: Film Details</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main1.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Film - Stats</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main1.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="index.html">Vivek Choubey <span>Film - Stats</span></a></h1>
-        <a href="#menu">Menu</a>
-    </header>
+	<!-- Header -->
+	<header id="header">
+		<h1 class="name"><a href="index.html">Vivek Choubey <span>Film - Stats</span></a></h1>
+		<a href="#menu">Menu</a>
+	</header>
 
-    <!-- Nav -->
-    <nav id="menu">
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us </a></li>
-            <li><a href="login.html">Login/Register</a></li>
-        </ul>
-    </nav>
-    <div id="main">
-        <section class="wrapper style2">
-            <div class="inner">
-                <a href="detail.html">
-                    <h2 class="sasa">Simmba</h2>
-                </a>
-                <div class="row">
-                    <div class="col sa">
-                        <img src="images/simmba.jpg" alt="img" width="230" height="350">
-                    </div>
-                        <div class="col w1">
-                            <br>
-                            <h4><a href="calender.html">
-                                    Release Date:</a></h4>
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us </a></li>
+			<li><a href="login.html">Login/Register</a></li>
+		</ul>
+	</nav>
 
+	<!-- Banner -->
+	<!--
+				To use a video as your background, set data-video to the name of your video without
+				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+				formats to work correctly.
+			-->
 
-                            <h4><a href="budget.html">
-                                    Budget of Movie:</a></h4>
+	<!-- Main -->
+	<div id="main">
+		<!-- Two -->
+		<section class="wrapper style2">
+			<div class="inner">
+				<div class="row">
+					<div class="col gyb1">
+						<h3>Search Here:</h3>
+					</div>
+					<div class="col sr">
+						<input type="text" placeholder="Search" class="src">
+					</div>
+					<div class="col">
+						<select class="choose">
+							<option value="all" >All </option>
+							<option value="actor" >Movies</option>
+							<option value="movies" >Actors</option>
+							<option value="movies" >Directors</option>
+							<option value="movies" >Producers</option>
+							<option value="movies" >Banners</option>
+							<option value="movies" >Writers</option>
+							<option value="movies" >Screenplay</option>
+							<option value="movies" >Dialogists</option>
+							<option value="movies" >Musicians</option>
+							<option value="movies" >Lyricists</option>
+						</select>
+					</div>
+					<div class="col">
+						<button type="submit" class="bttn"><i class="fa fa-search">&nbsp;&nbsp;</i></button>
+					</div>
+				</div><br>
+				<header>
+					<a href="latest.html">
+						<h2>Latest Released Movies: </h2>
+					</a>
+					<hr>
+				</header>
+				<!-- Tabbed Video Section -->
+				<div class="tabs">
 
-                            <h4><a href="screen.html">
-                                    Domestic Screens:</a></h4>
+					<!-- Tab 1 -->
+					<div class="tab tab-1 flex flex-3 active">
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/rooh.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/fauj.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/12.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/cool.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/indu.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html " class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/suraj.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+					</div>
+					<div  style="float:right;">
+						<a href="latest.html"><p class="flt"><b>+&nbsp;&nbsp;See More</b></p></a>
+					</div><br>
+				</div>
+			</div>
+		</section>
+		<section class="wrapper style2">
+			<div class="inner">
+				<div class="row">	
+					<div class="col">
+						<h2>Film - Stats:</h2>
+						<hr>
+						<ul class="cn">
+							<li><a href="calender.html">
+									<h4>Release Date Calendar Of Movies</h4>
+								</a></li>
+							<li><a href="domestic.html">
+									<h4>Domestic Box Office Collection</h4>
+								</a></li>
+							<li><a href="overseas.html">
+									<h4>Overseas Box Office Collection </h4>
+								</a></li>
+							<li><a href="worldwide.html">
+									<h4>Worldwide Box Office Collection </h4>
+								</a></li>
+							<li><a href="budget.html">
+									<h4>Production + P&A Budget Of Movies </h4>
+								</a></li>
+							<li><a href="screen.html">
+									<h4>No. Of Domestic Cinema Screens</h4>
+								</a></li>
+							<li><a href="footfalls.html">
+									<h4>No. Of Domestic Footfalls</h4>
+								</a></li>
+							<li><a href="verdict.html">
+									<h4>Domestic Verdict Of The Movies</h4>
+								</a></li>
+						</ul>
+					</div>
+					<div class="col car" >
+						<h2>Box Office Reports & Articles:</h2><hr>
+						<div class="slideshow-container">
+							<!-- Full-width images with number and caption text -->
+							<div class="mySlides fade">
+								<a href="detail.html"><img src="images/bahubali2.jpg" width="340" height="470"></a>
+							</div>
+							<div class="mySlides fade">
+								<a href="detail.html"><img src="images/bharat.jpg" width="340" height="470"></a>
+							</div>
+							<div class="mySlides fade">
+								<a href="detail.html"><img src="images/bajrangi.jpg" width="340" height="470"></a>
+							</div>
+	
+							<!-- Next and previous buttons -->
+							
+						</div>
+						<br>
 
-                            <h4><a href="footfalls.html">
-                                    Domestic Footfalls:</a></h4>
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+							<span class="dot" onclick="currentSlide(1)"></span>
+							<span class="dot" onclick="currentSlide(2)"></span>
+							<span class="dot" onclick="currentSlide(3)"></span>
+						</div>
+						<div  style="float:right;">
+							<a href="rep_art.html"><p class="flt"><b>+&nbsp;&nbsp;See More</b></p></a>
+						</div><br>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="wrapper style2">
+			<div class="inner">
+				<header>
+					<a href="past.html">
+						<h2>Movies Released Today In Past:</h2>
+					</a>
+					<hr>
+				</header>
+				<!-- Tabbed Video Section -->
+				<div class="tabs">
 
-                            <h4><a href="verdict.html">
-                                    Domestic Verdict:</a></h4>
-                            <br>
+					<!-- Tab 1 -->
+					<div class="tab tab-1 flex flex-3 active">
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/12.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/kaag1.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/cool.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/indu.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/suraj.jpg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+						<!-- Video Thumbnail -->
+						<div class="video col">
+							<div class="image fit">
+								<img src="images/chh.jpeg" alt="" />
+								<div class="arrow">
+									<div class="icon fa-play"></div>
+								</div>
+							</div>
+							<a href="detail.html" class="link"><span>Click Me</span></a>
+						</div>
+					</div>
+					<div  style="float:right;">
+						<a href="past.html"><p class="flt"><b>+&nbsp;&nbsp;See More</b></p></a>
+					</div><br>
+				</div>
+			</div>
+		</section>
+		<!-- Three -->
+	</div>
 
-                        </div>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="flex flex-3">
+				<div class="col">
+					<h3>Box Office </h3>
+					<ul class="alt">
+						<li><a href="#">Magazine</a></li>
+						<li><a href="#">Numbers</a></li>
+						<li><a href="#">Movie Calender</a></li>
+						<li><a href="#">Subscribe</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Topics</h3>
+					<ul class="alt">
+						<li><a href="#">From the Magazine</a></li>
+						<li><a href="#">Tracking & Forecasts</a></li>
+						<li><a href="#">Numbers</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Company</h3>
+					<ul class="alt">
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<ul class="icons">
+				<li><a href="http://twitter.com/VivekChoubeyyy" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/iVivekChoubey" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+				<li><a href="http://instagram.com/vivekchoubeyy" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+			</ul>
+			&copy; Design By: <a href="#">Tech_Marketz</a>   
+		</div>
+	</footer>
 
-                        <div class="col ww1">
-                            <br>
-                            <h5 class="s">28 Dec 2018</h5><br>
-                            <h5><span>&#8377;</span> 140.00 Cr</h5><br>
-                            <h5> 4000</h5><br>
-                            <h5 class="sx"> 1.91 Cr</h5><br>
-                            <h5 class=""> All Time Blockbuster </h5>
-                        </div>
-                    
-                    
-                    <div class="col vl gyb1"></div>
-                    <div class="col">
-                        <a href="domestic.html">
-                            <h3>Domestic Box Office Collection:</h3>
-                        </a>
-                        <hr>
-                        <div class="row">
-                            <div class="col">
+	<!-- Scripts -->
+	<script>
+		var slideIndex = 0;
+		showSlides();
 
-                                <h5 class="s1"><a href="Domestic Box Office Collection/dom_open_day.html">Opening Day
-                                        Nett: </a></h5>
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 3000); // Change image every 2 seconds
+		}
+	</script>
 
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-                                <h5 class="s1"><a href="Domestic Box Office Collection/dom_open_weekend.html">Opening
-                                        Weekend Nett: </a></h5>
-
-                                <h5 class="s1"><a href="Domestic Box Office Collection/dom_open_week.html">Opening Week
-                                        Nett: </a></h5>
-
-
-                                <h5 class="s1"><a href="Domestic Box Office Collection/dom_lifetime_nett.html">Lifetime
-                                        Nett: </a></h5>
-
-
-                                <h5 class="s1"><a href="Domestic Box Office Collection/dom_lifetime_gross.html">Lifetime
-                                        Gross: </a></h5>
-
-
-                                <h5 id="myBtn1" class="s1"><a href="#">Week-Wise Nett</a></h5>
-
-                                <div id="myModal1" class="modal">
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                        <span class="close1">&times;</span>
-                                        <h3 class="wsw">Highest Week-Wise Nett Collections:</h3>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                                            </div>
-                                            <div class="col gyb1">
-                                                <h4><a href="Domestic Box Office Collection/dom_week.html">• Opening
-                                                        Week:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_week.html">• Second
-                                                        Week:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_week.html">• Third
-                                                        Week:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_week.html">• Fourth
-                                                        Week:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_week.html">• Fifth
-                                                        Week:</a><br>
-                                                </h4>
-                                            </div>
-                                            <div class="col gyb1">
-                                                <h5 style="margin-top: 7px;">
-                                                    <span>&#8377;</span> 89.33 Cr<br>
-                                                    <div class="sq"><span>&#8377;
-                                                            50.44
-                                                            Cr</span></div><br>
-                                                    <div class="sw"><span>&#8377;</span> 21.59
-                                                        Cr</div><br>
-                                                    <div class="se"><span>&#8377;</span> 13.21
-                                                        Cr</div><br>
-                                                    <div class="sr"><span>&#8377;</span> 12.14 Cr</div><br>
-                                                    
-                                                </h5>
-                                            </div>
-                                            <div class="col-6 gyb1" style="margin-left: 190px;">
-                                                <h4 class="sd"><a href="Domestic Box Office Collection/dom_week.html">•
-                                                        Sixth
-                                                        Week:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_week.html">• Seventh
-                                                        Week:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_week.html">• Eighth
-                                                        Week:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_week.html">• There
-                                                        After:</a></h4>
-                                            </div>
-                                            <div class="col gyb1" style="margin-top: 7px;">
-                                                <h5 class="sd">
-                                                    <span>&#8377; 9.63 L</span><br>
-                                                    <div class="st"><span>&#8377; 1.91
-                                                            L</span></div><br>
-                                                    <div class="sy"><span>&#8377; 7.52
-                                                            L</span></div><br>
-                                                    <div class="su"><span>&#8377; 11.65
-                                                            L</span></div>
-                                                </h5>
-                                            </div>
-                                            <table class="gyb">
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Opening Week:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Second Week:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Third Week:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Fourth Week:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Fifth Week: </a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Sixth Week:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 L</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Seventh Week:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 L</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• Eighth Week:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 L</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_week.html">• There After:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 L</b></td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div><br><br>
-                                </div>
-
-                            </div>
-                            <div class="col">
-                                <h6 class="s2"><span>&#8377;</span> 20.75 Cr</h6>
-                                <h6 class="s2 aq"><span>&#8377;</span> 75.50 Cr</h6>
-                                <h6 class="s2 aq"><span>&#8377;</span> 150.25 Cr</h6>
-                                <h6 class="s2 ar"><span>&#8377;</span> 240.15 Cr</h6>
-                                <h6 class="s2 aq"><span>&#8377;</span> 295.60 Cr</h6>
-
-                                <h5 id="myBtn" class="s1 as"><a href="#">Circuit-Wise Nett</a></h5>
-
-                                <div id="myModal" class="modal1">
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                        <span class="close">&times;</span>
-                                        <h3 class="wsw">Highest Circuit-Wise Nett Collections:</h3>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                                            </div>
-                                            <div class="col-6 gyb1">
-                                                <h4><a href="Domestic Box Office Collection/dom_circuit.html">•
-                                                        Mumbai-Gujarat:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">•
-                                                        Delhi-UP:
-                                                    </a><br><a href="Domestic Box Office Collection/dom_circuit.html">•
-                                                        East
-                                                        Punjab:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">•
-                                                        Rajasthan:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• CP
-                                                        Berar:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• Central
-                                                        India:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• West
-                                                        Bengal:</a><br>
-                                                    
-                                                </h4>
-                                            </div>
-                                            <div class="col gyb1" style="margin-top: 10px;">
-                                                <h5>
-                                                    <span>&#8377;</span> 89.33 Cr</a><br>
-                                                    <div class="dq"><span>&#8377;</span>
-                                                        50.44
-                                                        Cr</div><br>
-                                                    <div class="dw"><span>&#8377;</span> 21.59
-                                                        Cr</div><br>
-                                                    <div class="de"><span>&#8377;</span> 13.21
-                                                        Cr</div><br>
-                                                    <div class="dr"><span>&#8377;</span> 12.14
-                                                        Cr</div><br>
-                                                    <div class="dt"><span>&#8377;</span> 9.32
-                                                        Cr</div><br>
-                                                    <div class="dy"><span>&#8377;</span> 7.51 Cr</div>
-                                                    <br>
-                                                </h5>
-                                            </div>
-                                            <div class="col-6 gyb1"  style="margin-left: 190px;">
-                                                <h4 class="sd"><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• Bihar:</a>
-                                                    <br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• Nizam-Andhra:</a>
-                                                    <br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• Mysore:
-                                                    </a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• Odisha:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• Assam:</a><br><a
-                                                        href="Domestic Box Office Collection/dom_circuit.html">• Tamil
-                                                        N-Kerala:</a>
-                                                </h4>
-                                            </div>
-                                            <div class="col gyb1">
-                                                <h5 class="sd" style="margin-top: 10px;">
-                                                    <span>&#8377; 9.63 Cr</span><br>
-                                                    <div class="du"><span>&#8377; 1.91
-                                                            Cr</span></div></span><br>
-                                                    <div class="di"><span>&#8377; 7.52
-                                                            Cr</div></span><br>
-                                                    <div class="do"><span>&#8377; 11.65
-                                                            Cr</span></div><br>
-                                                    <div class="dp"><span>&#8377; 2.86
-                                                            Cr</span></div><br>
-                                                    <div class="da"><span>&#8377; 2.71 Cr</span></div>
-                                                </h5>
-                                            </div>
-                                            <table class="gyb">
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Mumbai-Gujarat:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Delhi-UP:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• East Punjab:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Rajasthan:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• CP Berar:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Central India</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• West Bengal:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Bihar:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Nizam-Andhra:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Mysore:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Odisha:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Assam:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Domestic Box Office Collection/dom_circuit.html">• Tamil N-Kerala:</a></td>
-                                                    <td class="sws"><b><span>&#8377;</span> 89.33 Cr</b></td>
-                                                </tr>
-                                            </table>
-                                            <script>
-                                                // Get the modal
-                                                var modal1 = document.getElementById("myModal");
-
-                                                // Get the button that opens the modal
-                                                var btn1 = document.getElementById("myBtn");
-
-                                                // Get the <span> element that closes the modal
-                                                var span1 = document.getElementsByClassName("close")[0];
-
-                                                // When the user clicks the button, open the modal 
-                                                btn1.onclick = function () {
-                                                    modal1.style.display = "block";
-                                                }
-
-                                                // When the user clicks on <span> (x), close the modal
-                                                span1.onclick = function () {
-                                                    modal1.style.display = "none";
-                                                }
-
-                                                // When the user clicks anywhere outside of the modal, close it
-                                                window.onclick = function (event) {
-                                                    if (event.target == modal1) {
-                                                        modal1.style.display = "none";
-                                                    }
-                                                }
-                                            </script>
-                                        </div>
-                                    </div><br><br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr class="gyb1">
-                <br><br><br class="gyb1">
-
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal1");
-
-                    // Get the button that opens the modal
-                    var btn = document.getElementById("myBtn1");
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close1")[0];
-
-                    // When the user clicks the button, open the modal 
-                    btn.onclick = function () {
-                        modal.style.display = "block";
-                    }
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-
-                    // When the user clicks anywhere outside of the modal, close it
-                    window.onclick = function (event) {
-                        if (event.target == modal) {
-                            modal.style.display = "none";
-                        }
-                    }
-                </script>
-
-                <div class="row">
-                    <div class="col">
-                        <a href="overseas.html">
-                            <h3>Overseas Box Office Collection:</h3>
-                        </a>
-                        <hr>
-                        <div class="row">
-                            <div class="col">
-                                <h5 class="s1"><a href="Overseas Box Office Collection/over_weekend.html">
-                                        Opening Weekend Gross:</a></h5>
-
-                                <h5 class="s1"><a href="Overseas Box Office Collection/over_week.html">
-                                        Opening Week Gross:</a></h5>
-
-                                <h5 class="s1"><a href="Overseas Box Office Collection/over_lifetime.html">
-                                        Lifetime Gross:</a></h5>
-
-
-                                <h5 class="s1" id="myBtn2"><a href="#">Circuit-Wise Gross</a></h5>
-
-                                <div id="myModal2" class="modal">
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                        <span class="close2">&times;</span>
-                                        <h3 class="wsw">Highest Circuit-Wise Gross Collections:</h3>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col gyb1">
-                                                <h4>
-                                                    <a href="Overseas Box Office Collection/over_circuit.html">•
-                                                        USA-Canada:</a> <br>
-                                                    <a href="Overseas Box Office Collection/over_circuit.html">•
-                                                        United Kingdom:</a> <br>
-                                                    <a href="Overseas Box Office Collection/over_circuit.html">•
-                                                        Gulf:</a> <br>
-                                                    <a href="Overseas Box Office Collection/over_circuit.html">•
-                                                        Australia: </a><br>
-                                                    <a href="Overseas Box Office Collection/over_circuit.html">•
-                                                        China: </a><br>
-                                                    <a href="Overseas Box Office Collection/over_circuit.html">•
-                                                        Others:</a> <br>
-                                                </h4>
-                                            </div>
-                                            <div class="col gyb1" style="margin-top: 10px;">
-                                                <h5>
-                                                    $ 5.10 Mn <br>
-                                                    <div class="fq"><span>&#163;</span> 5.10 K </div><br>
-                                                    <div class="fw">$ 5.10 Mn </div><br>
-                                                    <div class="fe">$ 5.10
-                                                        Mn </div><br>
-                                                    <div class="fr"></div>N/A <br>
-                                                    <div class="ft"></div> N/A
-                                                </h5>
-                                            </div>
-                                            <table class="gyb">
-                                                <tr>
-                                                    <td><a href="Overseas Box Office Collection/over_circuit.html">• USA-Canada:</a></td>
-                                                    <td class="sws"><b>$ 5.10 Mn</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Overseas Box Office Collection/over_circuit.html">• United Kingdom:</a></td>
-                                                    <td class="sws"><b><span>&#163;</span> 5.10 K </b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Overseas Box Office Collection/over_circuit.html">• Gulf:</a></td>
-                                                    <td class="sws"><b>$ 5.10 Mn</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Overseas Box Office Collection/over_circuit.html">• Australia:</a></td>
-                                                    <td class="sws"><b>$ 5.10 Mn</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Overseas Box Office Collection/over_circuit.html">• China:</a></td>
-                                                    <td class="sws"><b>N/A</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="Overseas Box Office Collection/over_circuit.html">• Others:</a></td>
-                                                    <td class="sws"><b>N/A</b></td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div><br><br>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <h6 class="s2 " style="margin-top: 3px;">$ 32 Mn</h6>
-                                <h6 class="s2 " style="margin-top: 22px;">$ 32 Mn</h6>
-                                <h6 class="s2" style="margin-top: 21px;">$ 32 Mn</h6>
-                            </div>
-                        </div>
-                        <br class="gyb1">
-                        <hr class="gyb1"><br><br>
-                        <a href="worldwide.html">
-                            <h3>Worldwide Box Office Collection:</h3>
-                            <hr>
-                        </a>
-                        
-                        <div class="row">
-                            <div class="col">
-                                <h5 class="s1"><a href="World-Wide Box Office Collection/world_weekend.html">
-                                        Opening Weekend Gross:</a> </h4>
-
-                                    <h5 class="s1"><a href="World-Wide Box Office Collection/world_week.html">
-                                            Opening Week Gross:</a> </h4>
-
-                                        <h5 class="s1"><a href="World-Wide Box Office Collection/world_lifetime.html">
-                                                Lifetime Gross:</a> </h4>
-
-                            </div>
-                            <div class="col">
-                                <h6 class="s2" style="margin-top: 4px;"><span>&#8377;</span> 140.25 Cr</h6>
-                                <h6 class="s2" style="margin-top: 20px;"><span>&#8377;</span> 243.96 Cr</h6>
-                                <h6 class="s2" style="margin-top: 23px;"><span>&#8377;</span> 391.65 Cr</h6>
-                            </div>
-                        </div><br>
-                        <hr class="gyb1">
-                    </div>
-                    <div class="col vl1 gyb1"></div>
-                    <div class="col">
-                        <h3>Cast And Crew Credits:</h3>
-                        
-
-                        <table class="table1">
-                            <tr>
-                                <td>
-                                    <h5><a>Actor:</a></h5>
-                                </td>
-                                <td>
-                                    <a href="filmography.html">
-                                        <h6>Ranveer Singh | Sara Ali Khan | Ashutosh Rana | Sonu Sood | Siddharth Jadhav
-                                            | Ashok Smrth<div class="gyb1"></div>| Ganesh Yadav | Uday Tikekar
-                                        </h6>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Director:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Rohit Shetty | Kumar Sanu | Rohit Shetty</h6>
-                                    </a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Producer:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Karan Johar | Rohit Shetty </h6>
-                                    </a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Banner:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Dharma Production | Reliance Entertainment</h6>
-                                    </a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Story Writer:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Rohit Shetty</h6>
-                                    </a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Screenwriter:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Yunus Sajawal</h6>
-                                    </a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Dialogist:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Sajid-Farhad</h6>
-                                    </a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Musician:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Dj Chetas | Tanishk</h6>
-                                    </a></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5><a>Lyricist:</a></h5>
-                                </td>
-                                <td><a href="filmography.html">
-                                        <h6>Rashmi Singh</h6>
-                                    </a></td>
-                            </tr>
-                        </table>
-
-
-                    </div>
-                </div>
-                <hr>
-            </div>
-        </section>
-    </div>
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="inner">
-            <div class="flex flex-3">
-                <div class="col">
-                    <h3>Box Office </h3>
-                    <ul class="alt">
-                        <li><a href="#">Magazine</a></li>
-                        <li><a href="#">Numbers</a></li>
-                        <li><a href="#">Movie Calender</a></li>
-                        <li><a href="#">Subscribe</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3>Topics</h3>
-                    <ul class="alt">
-                        <li><a href="#">From the Magazine</a></li>
-                        <li><a href="#">Tracking & Forecasts</a></li>
-                        <li><a href="#">Numbers</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3>Company</h3>
-                    <ul class="alt">
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
-            </ul>
-            &copy; Selfmade Design: <a href="#">On demand </a>. Images: <a href="https://unsplash.com">Coverr</a>.
-            Video: <a href="https://coverr.co">Coverr</a>.
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-
-    <script>
-        // Get the modal
-        var modal2 = document.getElementById("myModal2");
-
-        // Get the button that opens the modal
-        var btn2 = document.getElementById("myBtn2");
-
-        // Get the <span> element that closes the modal
-        var span2 = document.getElementsByClassName("close2")[0];
-
-        // When the user clicks the button, open the modal 
-        btn2.onclick = function () {
-            modal2.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span2.onclick = function () {
-            modal2.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal2) {
-                modal2.style.display = "none";
-            }
-        }
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
 
 </body>
 
