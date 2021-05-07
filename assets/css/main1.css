@@ -3885,17 +3885,17 @@ td {
   margin-left: 20px;
 }
 .vl3{
-	border-left: 1px solid green;
+	border-left: 1px solid rgb(109, 109, 109);
   height: 380px;
   margin-left: 50px;
 }
 .vl4{
-	border-left: 1px solid green;
-  height: 320px;
+	border-left: 1px solid rgb(109, 109, 109);
+  height: 380px;
   margin-left: 20px;
 }
 .vl9{
-	border-left: 1px solid green;
+	border-left: 1px solid rgb(109, 109, 109);
   height: 385px;
   margin-left: 15px;
 }
@@ -4143,6 +4143,12 @@ ul#lt11 li{
 	border-left: 0;
 	border-right: 0;
 }
+.tb1 tbody tr{
+	border: solid 1px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+}
 @media (max-width: 768px){
 	.tab12{
 		color: #aa14cc;
@@ -4168,10 +4174,10 @@ ul#lt11 li{
 	}
 	.sasa{
 		text-align: center;
-		font-size: 32px;
+		font-size: 36px;
 	}
 	.sa{
-		margin-left: 55px;
+		margin-left: 60px;
 	}
 	.sw{
 		margin-top: -7px;
@@ -4232,7 +4238,9 @@ ul#lt11 li{
 	.choose{
 		margin-top: -8px;
 	}
-
+	.ig{
+		width: 45%;
+	}
 }
 @media (min-width:768px){
 	.gyb{
