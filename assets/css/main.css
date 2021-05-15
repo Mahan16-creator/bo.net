@@ -4094,7 +4094,13 @@ ul#lt11 li{
 	font-size: 18px;
 }
 
+
 @media (max-width:768px){
+	.btcn{
+		padding: 0px !important;
+		padding-right: 15px !important;
+		padding-left: 10px !important;
+	}
 	.tab12{
 		display: none;
 	}
