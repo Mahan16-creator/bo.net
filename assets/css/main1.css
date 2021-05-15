@@ -3898,7 +3898,7 @@ td {
 .vl9{
 	border-left: 1px solid rgb(109, 109, 109);
   height: 355px;
-  margin-left: 60px;
+  margin-left: 125px;
 }
 .modal {
 	display: none; /* Hidden by default */
@@ -4119,6 +4119,12 @@ ul#lt11 li{
 	background :#3b444d !important; 
 	color: white !important;
 }
+.sss:focus,
+.sss:hover{
+	outline: none ;
+	border: 1px solid gray;
+	background: gray;
+}
 .src{
 	width: 200px !important;;
 }
@@ -4157,7 +4163,30 @@ ul#lt11 li{
 .hr12{
 	margin-top: 113.5px;
 }
+.mgl{
+	margin-left: 400px;
+}
+.xz1{
+	margin-top: 2.5px;
+}
+.aq1{
+	margin-top: 23px;
+}
+.zx1{
+	margin-top: 22px;
+}
+.ar1{
+	margin-top: 21.5px;
+}
 @media (max-width: 768px){
+	.btcn{
+		padding: 0px !important;
+		padding-right: 15px !important;
+		padding-left: 10px !important;
+	}
+	.mgl{
+		margin-left: 50px !important;
+	}
 	.tab12{
 		color: #aa14cc;
 	}
@@ -4277,7 +4306,7 @@ ul#lt11 li{
 		float: right !important;
 	}
 	.ig{
-		width: 45%;
+		width: 48%;
 	}
 	.cd{
 		margin-left: 3px !important	;
