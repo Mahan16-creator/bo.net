@@ -4199,6 +4199,13 @@ ul#lt11 li{
 	.gyb1{
 		display: none;
 	}
+	.cntr{
+
+	}
+	.cntr1{
+		margin-left: 70px;
+		margin-bottom: 30px;
+	}
 	.src{
 		width: 150px !important;
 		padding-top: 20px !important;
