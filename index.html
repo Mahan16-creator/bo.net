@@ -184,7 +184,7 @@
 					</div>
 					<div class="col car" >
 						<br class="gyb">
-						<h2>Box Office Reports & Articles:</h2><hr>
+						<a href="rep_art.html"><h2>Box Office Reports & Articles:</h2></a><hr>
 						<div class="slideshow-container">
 							<!-- Full-width images with number and caption text -->
 							<div class="mySlides fade">
@@ -195,6 +195,12 @@
 							</div>
 							<div class="mySlides fade">
 								<a href="article.html"><img src="images/bajrangi.jpg" width="340" height="470"></a>
+							</div>
+							<div class="mySlides fade">
+								<a href="article.html"><img src="images/ramp.jpg" width="340" height="470"></a>
+							</div>
+							<div class="mySlides fade">
+								<a href="article.html"><img src="images/secret.jpg" width="340" height="470"></a>
 							</div>
 	
 							<!-- Next and previous buttons -->
@@ -207,6 +213,8 @@
 							<span class="dot" onclick="currentSlide(1)"></span>
 							<span class="dot" onclick="currentSlide(2)"></span>
 							<span class="dot" onclick="currentSlide(3)"></span>
+							<span class="dot" onclick="currentSlide(4)"></span>
+							<span class="dot" onclick="currentSlide(5)"></span>
 						</div>
 						<div  style="float:right;">
 							<a href="rep_art.html"><p class="flt"><b>+&nbsp;&nbsp;See More</b></p></a>
@@ -358,7 +366,7 @@
 			}
 			slides[slideIndex - 1].style.display = "block";
 			dots[slideIndex - 1].className += " active";
-			setTimeout(showSlides, 3000); // Change image every 2 seconds
+			setTimeout(showSlides, 4000); // Change image every 2 seconds
 		}
 	</script>
 
