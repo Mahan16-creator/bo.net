@@ -3981,10 +3981,10 @@ td {
 	margin-top: 15px !important;
 }
 .sw{
-	margin-top: -5px;
+	margin-top: -7px;
 }
 .se{
-	margin-top: -7px;
+	margin-top: -6px;
 }
 .sr{
 	margin-top: -4px;
@@ -4005,13 +4005,13 @@ td {
 	margin-top: -5px;
 }
 .de{
-	margin-top: -3px;
+	margin-top: -5.5px;
 }
 .dr{
-	margin-top: -9px;
+	margin-top: -6px;
 }
 .dt{
-	margin-top: -6px ;
+	margin-top: -5px ;
 }
 .dy{
 	margin-top: -5px;
@@ -4178,6 +4178,9 @@ ul#lt11 li{
 .ar1{
 	margin-top: 21.5px;
 }
+.cntr1{
+	margin-bottom: 30px;
+}
 @media (max-width: 768px){
 	.btcn{
 		padding: 0px !important;
@@ -4199,9 +4202,7 @@ ul#lt11 li{
 	.gyb1{
 		display: none;
 	}
-	.cntr{
-
-	}
+	
 	.cntr1{
 		margin-left: 70px;
 		margin-bottom: 30px;
