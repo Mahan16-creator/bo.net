@@ -4271,6 +4271,10 @@ ul#lt11 li{
 		padding-right: 15px !important;
 		padding-left: 10px !important;
 	}
+	.is1{
+		width: 40%;
+		height: auto;
+	}
 	.mgl{
 		margin-left: 50px !important;
 	}
