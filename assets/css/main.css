@@ -4045,7 +4045,15 @@ ul#lt11 li{
 	font-size: 24px;
 }
 .sz{
-	font-size: 22px;
+	font-size: 26px;
+}
+.lnk2{
+	background-color: #9ba2a8;
+	color: black;
+	border-radius: 2rem;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
 }
 .ss3{
 	margin-right: -10px;
@@ -4085,11 +4093,7 @@ ul#lt11 li{
 	margin-left: 5cm;
 
 }
-.bg{
-	border: solid 1px;
-	border-left: 0;
-	border-right: 0;
-}
+
 .sx{
 	font-size: 18px;
 }
