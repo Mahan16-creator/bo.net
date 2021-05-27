@@ -4205,66 +4205,57 @@ ul#lt11 li{
 .cl1{
 	width: 100%;
 }
-.y6Uyqe {
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 12px 0 0 0;
+.sdds{
+	background-color:none;
+	padding: 10px 20px;
+	border: 1px solid #3498db;
+	border-radius: 2rem;
+	margin-right: 2.5px;
+	cursor: pointer;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
 }
-.EIaa9b {
-    display: flex;
+.btn1,.btn2,.btn3,.btn4{
+	color: #3498db !important;
 }
-.AJLUJb {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+	color : #fff !important; 
 }
-.k8XOCe {
-    align-items: center;
-    background-color: #f1f3f4;
-    border-radius: 100px;
-    box-sizing: border-box;
-    display: flex;
-    margin: 4px 8px;
-    max-height: none;
-    min-height: 48px;
-    padding: 0 17px;
-    position: relative;
+.sdds:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+	top: 0 !important;
 }
-.k8XOCe:hover{
-	background-color: blueviolet !important;
-}
-.k8XOCe:focus{
-	background-color: rgb(104, 82, 230);
-}
-
-.aXBZVd {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px;
-    border-radius: 4px;
-    height: 20px;
-    padding: 10px;
-    width: 20px;
-}
-.s75CSd {
-    -webkit-box-orient: vertical;
-    color: #202124;
-    display: -webkit-box;
-    flex: 1;
-    font-size: 16px;
-    -webkit-line-clamp: 2;
-    max-width: 600px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-}
-.j6iBde {
-    margin-left: 16px;
+.btn1::before,.btn2::before,.btn3::before,.btn4::before{
+	top: 0;
+	border-radius: 2rem;	
 }
 
-.yF4bGf {
-    margin: 0px;
+.btn1:hover::before,.btn2:hover::before,.btn3:hover::before,.btn4:hover::before{
+	height: 102%;
 }
-
+.btn1:focus,.btn2:focus,.btn3:focus,.btn4:focus{
+	background-color: #ad90f3 !important;
+	color: black !important;
+}
+.zero{
+	float: right;
+	font-size: 14px;
+}
+.coll{
+	width: 85%;
+}
+.wor{
+	border: 1px solid rgb(180, 176, 176);
+	padding: 10px;
+}
 @media (max-width: 768px){
 	.btcn{
 		padding: 0px !important;
@@ -4304,6 +4295,9 @@ ul#lt11 li{
 		padding-top: 1px;
 		padding-bottom: 41px;
 		margin-top: -9px;
+	}
+	.coll{
+		width: 61%;
 	}
 	.sasa{
 		text-align: center;
@@ -4406,6 +4400,9 @@ ul#lt11 li{
 	}
 	.cd{
 		margin-left: 3px !important	;
+	}
+	.btn2,.btn3,.btn4{
+		margin-top: 10px;
 	}
 }
 @media (min-width:768px){
