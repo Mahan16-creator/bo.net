@@ -4262,6 +4262,9 @@ ul#lt11 li{
 		padding-right: 15px !important;
 		padding-left: 10px !important;
 	}
+	.wor{
+		border: none;
+	}
 	.is1{
 		width: 40%;
 		height: auto;
